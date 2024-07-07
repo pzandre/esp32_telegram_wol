@@ -1,5 +1,7 @@
 # ESP32 WoL via Telegram
 
+The Micropython Telegram code was forked from [Jordi Prats MicroPython UTelegram repository](https://github.com/jordiprats/micropython-utelegram) and later modified.
+
 This is an oversimplified way to send WoL packages over a Telegram Bot. Notice that I've built this only for personal use and with a single use in mind, therefore things such as using multiple targets are not available, but can be accomplished by simply changing some functions to use parameters instead of hardcoded values.
 
 There's a C++ and a MicroPython version of the code.
